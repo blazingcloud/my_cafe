@@ -5,7 +5,7 @@ Given /^I have menu data$/ do
 end
 
 Given /^we have ordered lunches$/ do
-  todays_order = Order.create!(:created_at => Time.now)
+  todays_order = Order.create!
   todays_order.lunches.build(:person_name => "Sarah",
                              :item => Item.first)
   todays_order.lunches.build(:person_name => "Sarah",
