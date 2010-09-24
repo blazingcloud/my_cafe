@@ -6,3 +6,10 @@
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Major.create(:name => 'Daley', :city => cities.first)
 puts "seeding data"
+
+menu_data = [["Single Burger", "mustard, mayonnaise, onions, pickles, tomato, lettuce" ],
+             ["Double Burger", "mustard, mayonnaise, onions, pickles, tomato, lettuce" ]]
+
+MenuData.make(menu_data)
+
+puts "done"
