@@ -1,8 +1,8 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  name: MyString
-  description: MyString
+  name: California Chicken
+  description: Some thing here
 
 two:
   name: MyString
